@@ -1,0 +1,13 @@
+server:
+  port: 8082
+
+dubbo:
+  application:
+    name: order-service-consumer
+  registry:
+    address: 172.26.6.148:2181
+    protocol: zookeeper
+  consumer:
+    timeout: 3000
+  monitor:
+    protocol: registry
