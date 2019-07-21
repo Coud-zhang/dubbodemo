@@ -19,6 +19,10 @@ import java.util.List;
 public class OrderServiceImpl implements OrderService {
 
 
+	/**
+	 * 注意这里的是哪个包下的注解
+	 */
+
 	@Reference
      UserService userService;
 
